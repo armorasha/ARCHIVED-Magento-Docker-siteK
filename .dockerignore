@@ -1,0 +1,19 @@
+# ignore .git and .cache folders
+.git
+.cache
+
+# ignore all *.class files in all folders, including build root
+**/*.class
+
+auth.json
+id_rsa
+
+# Magento specific files
+.gitignore
+Dockerfile
+hooks
+LICENSE
+README.md
+docker-compose.yml
+docker-terminal.txt
+.travis.yml

@@ -1,0 +1,23 @@
+The following is to be pasted on WSL2 Terminal to install Magento inside Docker Image
+
+php bin/magento setup:install \
+--admin-firstname=Raj \
+--admin-lastname=Pal \
+--admin-email=arm@yoo.com \
+--admin-user=admin \
+--admin-password='SomePassword123' \
+--base-url=https://local.domain.com \
+--base-url-secure=https://local.domain.com \
+--backend-frontname=admin \
+--db-host=mysql \
+--db-name=magento \
+--db-user=root \
+--db-password=mysql \
+--use-rewrites=1 \
+--language=en_US \
+--currency=USD \
+--timezone=America/New_York \
+--use-secure-admin=1 \
+--admin-use-security-key=1 \
+--session-save=files \
+--use-sample-data
